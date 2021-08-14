@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+.header{
+    padding: 8rem 0;
+    background: #8d9aae;
+    position: relative;
+}
+.header .container{
+    position: relative;
+    z-index: 1000;
+}
+.header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+.header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(25, 69, 128, 0.205);
+    z-index: 0;
+}
+.header h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+@media screen and (min-width: 768px){
+    .header{
+        padding: 12rem 0;
+    }
+}

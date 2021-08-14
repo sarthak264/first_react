@@ -1,0 +1,19 @@
+.newsletter_container{
+    display: flex;
+}
+.newsletter_container input{
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+.newsletter_container input::placeholder{
+    font-size: 1.3rem;
+}
+.newsletter_container button{
+    flex-shrink: 0;
+    padding: 0rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}

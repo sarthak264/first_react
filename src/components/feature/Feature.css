@@ -1,0 +1,7 @@
+.feature{
+    max-width: 20rem;
+    font-family: 'Lato',sans-serif;
+}
+.feature h3{
+    font-weight: 600 !important;
+}

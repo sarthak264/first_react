@@ -1,0 +1,11 @@
+.features{
+    padding: 7rem 0;
+    background-color: #f8f9fa;
+}
+.features i{
+    font-size: 4.5rem;
+    color: #0d6efd;
+}
+.features:last-child{
+    margin-bottom: 0 !important;
+}

@@ -1,0 +1,31 @@
+.sign_up{
+    padding: 7rem 0;
+    position: relative;
+}
+.sign_up::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(25, 69, 128, 0.205);
+    z-index: 0;
+}
+.sign_up img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+.sign_up .container{
+    position: relative;
+    z-index: 1000;
+}
+.sign_up h2{
+    font-weight: 600;
+}
